@@ -1,0 +1,3 @@
+servo_pos servo0
+servo_pos servo1
+servo_pos servo2

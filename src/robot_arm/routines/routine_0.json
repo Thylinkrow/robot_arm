@@ -1,0 +1,63 @@
+{
+	"name": "Testing file",
+	"commands": [
+		{
+			"type": "gripper",
+			"wait": 0,
+			"action": {
+				"gripper": 1
+			} 
+		},
+		{
+			"type": "axis",
+			"wait": 2000,
+			"action": {
+				"time": 1000,
+				"positions": {
+					"servo1": 1000,
+					"servo2": 1000,
+					"servo3": 1000
+				}
+			} 
+		},
+		{
+			"type": "gripper",
+			"wait": 2000,
+			"action": {
+				"gripper": 0
+			} 
+		},
+		{
+			"type": "axis",
+			"wait": 2000,
+			"action": {
+				"time": 1000,
+				"positions": {
+					"servo1": 5,
+					"servo2": 400,
+					"servo3": 5
+				}
+			} 
+		},
+		{
+			"type": "axis",
+			"wait": 2000,
+			"action": {
+				"time": 1000,
+				"positions": {
+					"servo1": 1000,
+					"servo2": 1000,
+					"servo3": 1000
+				}
+			} 
+		},
+		{
+			"type": "gripper",
+			"wait": 2000,
+			"action": {
+				"gripper": 1
+			} 
+		}
+	]
+}
+
